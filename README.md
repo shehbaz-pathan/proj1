@@ -46,7 +46,7 @@ data:
 ### b) SSO(40 Minutes)
 ArgoCD allows us to integrate SSO to use our existing identity provider to access ArgoCD resources, since we already know ArgoCD don't its own user management system but allow us to restrict access to its resource using RBAC permissions so we can use our existing identity provider for authenticating and RBAC permission for authorization.
 - [Read][ArgoCD SSO Configuration](https://argo-cd.readthedocs.io/en/stable/operator-manual/user-management/#sso)
-##### Assignment
+##### Assignment(20 Minutes)
 :computer: Configure ArgoCD SSO using Okta via SAML method
 <details>
 <summary>Answer</summary></br>
