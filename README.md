@@ -53,3 +53,11 @@ ArgoCD allows us to integrate SSO to use our existing identity provider to acces
 
 Follow [this](https://argo-cd.readthedocs.io/en/stable/operator-manual/user-management/okta/#saml-with-dex) guide for ArgoCD SSO integration using Okta
 </details>
+
+## 03-ArgCD Sync Phases and Waves
+Argo CD executes a sync operation in a number of steps. At a high-level, there are three phases pre-sync, sync and post-sync.
+
+Within each phase you can have one or more waves, that allows you to ensure certain resources are healthy before subsequent resources are synced.
+- [Read][ArgoCD Phases and Syncs](https://argo-cd.readthedocs.io/en/stable/user-guide/sync-waves/#how-do-i-configure-phases)
+- [Read][Phase Configuration](https://argo-cd.readthedocs.io/en/stable/user-guide/sync-waves/#how-do-i-configure-phases)
+- [Read][Wave Configuration](https://argo-cd.readthedocs.io/en/stable/user-guide/sync-waves/#how-do-i-configure-waves)
